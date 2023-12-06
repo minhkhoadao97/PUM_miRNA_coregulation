@@ -252,10 +252,10 @@ def pipeline(df):
 
 ###########################################################################################################################################################
 # import bigwig file for phyloP score
-bw = pyBigWig.open('ENSEMBL/mm39.phyloP35way.bw')
+bw = pyBigWig.open('mm39.phyloP35way.bw')
 
 # import ENSEMBL annotation file for 3'UTR
-anno = pd.read_csv('ENSEMBL/mouse_3UTR_annotation.gtf.gz',\
+anno = pd.read_csv('mouse_3UTR_annotation.gtf.gz',\
                     usecols = [0, 3, 4, 6, 8],\
                     sep = '\t',\
                     compression = 'gzip',\
