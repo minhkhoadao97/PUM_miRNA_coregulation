@@ -15,7 +15,7 @@ Tracks showing conservation and locations of PUM and miRNA sites were created us
 2. Run **identify_PUM_miRNA_motifs.py** script
 * Input:
   * *ENSEMBL/mouse_3UTR_annotation.gtf.gz* - annotation file obtained from ENSEMBL and processed to only contain 3'UTRs
-  * *ENSEMBL/mm39.phyloP35way.bw* - pre-computed 35-way phyloP score from ENSEMBL
+  * *ENSEMBL/mm39.phyloP35way.bw* (not provided)- pre-computed 35-way phyloP score from ENSEMBL
   * *mir_prediction/* - folder contains prediction of 8 miRNA binding sites obtained from miRGate tool
 * Output: output a text file for each miR ("OUTPUT/*_out.csv") showing whether PUM motifs are found proximal to predicted miR sites
 
